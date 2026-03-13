@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
+import 'package:reminder_flow_mobile/core/config/app_config.dart';
 
 @lazySingleton
 class ApiClient {
@@ -7,7 +8,7 @@ class ApiClient {
 
   ApiClient() {
     _dio = Dio(BaseOptions(
-      baseUrl: 'http://localhost:8001/api/v1',
+      baseUrl: AppConfig.apiBaseUrl,
       connectTimeout: const Duration(seconds: 30),
       receiveTimeout: const Duration(seconds: 30),
       headers: {

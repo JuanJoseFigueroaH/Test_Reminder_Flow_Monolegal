@@ -41,7 +41,7 @@ import { Client } from '../../../domain/entities/client.entity';
       </div>
 
       <div class="info-banner" *ngIf="clients.length > 0">
-        <span>⏰</span> Los recordatorios se procesan automáticamente cada 2 minutos
+        <span>⏰</span> Los recordatorios se procesan automáticamente cada 30 segundos
       </div>
 
       <div class="stats-grid" *ngIf="!loading">

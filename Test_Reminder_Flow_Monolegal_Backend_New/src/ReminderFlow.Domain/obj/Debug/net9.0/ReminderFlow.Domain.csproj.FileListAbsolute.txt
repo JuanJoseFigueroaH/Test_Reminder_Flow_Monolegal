@@ -1,0 +1,12 @@
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\bin\Debug\net9.0\ReminderFlow.Domain.deps.json
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\bin\Debug\net9.0\ReminderFlow.Domain.dll
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\bin\Debug\net9.0\ReminderFlow.Domain.pdb
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ReminderFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ReminderFlow.Domain.AssemblyInfoInputs.cache
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ReminderFlow.Domain.AssemblyInfo.cs
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ReminderFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ReminderFlow.Domain.sourcelink.json
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ReminderFlow.Domain.dll
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\refint\ReminderFlow.Domain.dll
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ReminderFlow.Domain.pdb
+C:\Pruebas_Tecnicas\Test_Reminder_Flow_Monolegal\Test_Reminder_Flow_Monolegal_Backend_New\src\ReminderFlow.Domain\obj\Debug\net9.0\ref\ReminderFlow.Domain.dll

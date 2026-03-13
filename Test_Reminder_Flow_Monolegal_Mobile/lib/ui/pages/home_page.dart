@@ -201,7 +201,7 @@ class DashboardTab extends StatelessWidget {
                         SizedBox(width: 8),
                         Expanded(
                           child: Text(
-                            'Los recordatorios se procesan automáticamente cada 2 minutos',
+                            'Los recordatorios se procesan automáticamente cada 30 segundos',
                             style: TextStyle(
                               color: Color(0xFF1E40AF),
                               fontSize: 13,

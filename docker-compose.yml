@@ -1,27 +1,27 @@
 version: '3.8'
 
 services:
-  api:
+  api-dotnet:
     build:
-      context: ./Test_Reminder_Flow_Monolegal_Backend
+      context: ./Test_Reminder_Flow_Monolegal_Backend_New
       dockerfile: Dockerfile
-    container_name: reminder_flow_api
+    container_name: reminder_flow_api_dotnet
     ports:
-      - "8000:8000"
+      - "8002:8000"
     environment:
-      - MONGODB_URL=mongodb://mongodb:27017
-      - MONGODB_DATABASE=reminder_flow_db
-      - REDIS_URL=redis://redis:6379
-      - SMTP_HOST=smtp.gmail.com
-      - SMTP_PORT=587
-      - SMTP_USER=
-      - SMTP_PASSWORD=
-      - SMTP_FROM=
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoDb__ConnectionString=mongodb://mongodb:27017
+      - MongoDb__DatabaseName=reminder_flow_db
+      - Redis__ConnectionString=redis:6379
+      - Email__SmtpHost=smtp.gmail.com
+      - Email__SmtpPort=587
+      - Email__SmtpUser=juanjosefigueroahurtatis@gmail.com
+      - Email__SmtpPassword=fnbr neqk xuhk qquo
+      - Email__FromEmail=juanjosefigueroahurtatis@gmail.com
+      - Email__FromName=Reminder Flow System
     depends_on:
       - mongodb
       - redis
-    volumes:
-      - ./Test_Reminder_Flow_Monolegal_Backend:/app
     networks:
       - reminder_network
 
@@ -33,7 +33,7 @@ services:
     ports:
       - "4200:80"
     depends_on:
-      - api
+      - api-dotnet
     networks:
       - reminder_network
 
